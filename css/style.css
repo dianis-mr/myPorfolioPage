@@ -115,3 +115,31 @@ ul li i {
 .download-btn:hover {
   background-color: #005ea3;
 }
+
+.footer-credit {
+  /*background-color: #00d7cb;*/
+  background-color: #75c1ff;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+  opacity: 0.95;
+}
+
+.footer-credit i {
+  color: #e63946; /* nice soft red for the heart */
+}
+
+.footer-credit:hover {
+  opacity: 1;
+  transform: scale(1.05);
+  /*transition: opacity 0.3s, transform 0.3s;*/
+  transition: opacity 0.3s ease-in-out;
+  border-top: 1px solid #ddd;
+}
+
+.footer {
+
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
