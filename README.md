@@ -31,6 +31,8 @@ The website is fully static and deployed using Azure Static Web Apps.
 
 ## 📂 Project Structure
 
+
+
 ## 🚀 Deployment Instructions
 
 This project is deployed using **Azure Static Web Apps**, connected via GitHub Actions.
@@ -39,13 +41,14 @@ To run locally:
 
 ```bash
 # Clone repository
-git clone https://github.com/<yourusername>/<repo>.git
+git clone https://github.com/dianis-mr/myPorfolioPage.git
 
 # Open the site in your browser
 open index.html  # macOS
 # OR
 start index.html # Windows
-
+```
+---
 ## 📄 License
 
 This project is licensed under the **MIT License**.  
