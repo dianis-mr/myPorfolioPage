@@ -1,0 +1,117 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f7fa;
+  color: #333;
+  text-align: center;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #0078d7;
+  color: white;
+  padding: 1.2rem 0;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 10px 0;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section {
+  margin: 2rem auto;
+  max-width: 700px;
+  padding: 0 1rem;
+}
+
+h2 {
+  color: #0078d7;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 0.5rem 0;
+}
+
+ul li i {
+  color: #0078d7;
+  margin-right: 8px;
+}
+
+.skills {
+  margin-top: 2rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.skills li {
+  margin: 0.6rem 0;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.skills li i {
+  color: #0078d7;
+  margin-right: 10px;
+  width: 20px;
+  text-align: center;
+}
+
+.projects .project {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.projects .project h3 {
+  color: #333;
+}
+
+.projects .project a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  color: #0078d7;
+  font-weight: 600;
+}
+
+.projects .project a:hover {
+  text-decoration: underline;
+}
+
+.download-btn {
+  display: inline-block;
+  background-color: #0078d7;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #005ea3;
+}
