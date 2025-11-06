@@ -1,3 +1,64 @@
+/* === Default Light Theme === */
+:root {
+  --bg-color: #f5f7fa;
+  --bg-proj-color: white;
+  --text-color: #333;
+  --primary-color: #0078d7;
+  --card-bg: #ffffff;
+  --link-color: #0078d7;
+}
+
+/* Apply global styling based on theme variables */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  text-align: center;
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding: 1.2rem 0;
+}
+
+.projects .project {
+  background-color: var(--card-bg);
+}
+
+a {
+  color: var(--link-color);
+}
+
+/* === Dark Theme Overrides === */
+.dark-theme {
+  --bg-color: #1b1f24;
+  --bg-proj-color: #3c3c3c;
+  --text-color: #e4e6eb;
+  --primary-color: #1f6feb;
+  --card-bg: #2d333b;
+  --link-color: #58a6ff;
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: #fff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+}
+
+/*
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
   margin: 0;
@@ -12,6 +73,7 @@ header {
   color: white;
   padding: 1.2rem 0;
 }
+*/
 
 .profile-img {
   width: 180px;
@@ -79,7 +141,8 @@ ul li i {
 }
 
 .projects .project {
-  background: white;
+  /*background: white;*/
+  background: var(--bg-proj-color);
   border-radius: 10px;
   padding: 1rem;
   margin: 1rem 0;
@@ -88,6 +151,7 @@ ul li i {
 
 .projects .project h3 {
   color: #333;
+  color: var(--text-color);
 }
 
 .projects .project a {
