@@ -130,7 +130,7 @@ ul li i {
   margin: 0.6rem 0;
   font-size: 1rem;
   display: flex;
-  align-items: center;
+  align-items: left;
 }
 
 .skills li i {
@@ -150,8 +150,8 @@ ul li i {
 }
 
 .projects .project h3 {
-  color: #333;
-  color: var(--text-color);
+  color: #d66000 /*#333;*/
+  /*color: var(--text-color);*/
 }
 
 .projects .project a {
