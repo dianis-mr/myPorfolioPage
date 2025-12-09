@@ -57,7 +57,7 @@ a {
 /* === Dark Theme Overrides === */
 .dark-theme {
   --bg-color: #1b1f24;
-  --bg-proj-color: #3c3c3c;
+  --bg-proj-color: #293e57;
   --text-color: #e4e6eb;
   --primary-color: #1f6feb;
   --card-bg: #2d333b;
@@ -168,7 +168,7 @@ ul li i {
 
 .projects .project {
   /*background: white;*/
-  background: linear-gradient(135deg, var(--bg-proj-color) 0%, rgba(255, 255, 255, 0.98) 100%);
+  background: linear-gradient(135deg, var(--bg-proj-color) 0%, rgba(195, 213, 224, 0.98) 100%);
   border-radius: 10px;
   padding: 1rem;
   margin: 1rem 0;
@@ -185,7 +185,7 @@ ul li i {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--metallic-light), transparent);
+  background: linear-gradient(135deg, transparent, var(--metallic-light), transparent);
   pointer-events: none;
 }
 
